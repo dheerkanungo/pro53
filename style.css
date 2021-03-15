@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+}
+
+img {
+    width: 450px;
+    border: solid;
+    transition: transform .2s;
+
+}
+
+#bio {
+    padding: 50px;
+    font-size: 50px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.line {
+    height: 6px;
+    background-color: azure;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#work {
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
+#contact_1{
+    background: firebrick;
+    
+}
